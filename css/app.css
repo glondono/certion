@@ -1,0 +1,417 @@
+#header {
+    border-radius: 0 !important;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+#main {
+    min-height: 80px;
+}
+
+#footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+#footer .container {
+    border-top: 5px solid #FF662B;
+    border-bottom: 5px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#carousel1 {
+    background-color: #000;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#carousel1 .item {
+    width: 100%;
+    height: 480px;
+}
+
+#i0 {
+    background-image: url("/img/generator.jpg");
+}
+
+#i1 {
+    background-image: url("/img/industrial.jpg");
+}
+
+#i2 {
+    background-image: url("/img/hospital.jpg");
+}
+
+#i3 {
+    background-image: url("/img/infraestructura.jpg");
+}
+
+#i4 {
+    background-image: url("/img/generator.jpg");
+}
+
+#p1 {
+    background-image: url("/img/procopal.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p2 {
+    background-image: url("/img/plazamayor.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p3 {
+    background-image: url("/img/elcondor.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p4 {
+    background-image: url("/img/caisa.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p5 {
+    background-image: url("/img/conconcreto.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#eaton2 {
+    background-image: url("/img/generator.jpg");
+    width: 100%;
+}
+
+#contacto {
+    background-image: url("/img/generator.jpg");
+    width: 100%;
+}
+
+#servicios{
+    background-image: url("/img/generator.jpg");
+    width: 100%;
+}
+
+#procopal {
+    background-image: url("/img/procopal2.jpg");
+    width: 100%;
+}
+
+#plazamayor {
+    background-image: url("/img/plazamayor2.jpg");
+    width: 100%;
+}
+
+#elcondor {
+    background-image: url("/img/elcondor2.jpg");
+    width: 100%;
+}
+
+#caicsa {
+    background-image: url("/img/caicsa2.jpg");
+    width: 100%;
+}
+
+#conconcreto {
+    background-image: url("/img/conconcreto2.jpg");
+    width: 100%;
+}
+
+#circle{
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+     transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+}
+
+#circle.diagnostico{
+     -webkit-transform: rotate(110deg);
+     -moz-transform: rotate(110deg);
+     -o-transform: rotate(110deg);
+     transform: rotate(110deg);
+}
+
+#circle.implementacion{
+     -webkit-transform: rotate(220deg);
+     -moz-transform: rotate(220deg);
+     -o-transform: rotate(220deg);
+     transform: rotate(220deg);
+}
+
+#circle.gerencia{
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     transform: rotate(360deg);
+}
+
+#banner.diagnostico{
+    background-color:#FF662B;
+}
+
+#banner.implementacion{
+    background-color:#00718C;
+}
+
+#banner.gerencia{
+    background-color:#00B3C1;
+}
+
+.orange {
+    color: #FF662B;
+}
+
+.white {
+    color: #FFF;
+}
+
+.row-margin-bottom {
+    margin-bottom: 30px;
+}
+
+.row-margin-after-header {
+    margin-top: 80px;
+}
+
+.row-margin-top {
+    margin-top: 30px;
+}
+
+.row-padding-top{
+    padding-top: 30px;
+}
+
+.row-padding-bottom{
+    padding-bottom: 30px;
+}
+
+#carousel2 .item {
+    width: 100%;
+    height: 520px;
+}
+
+#i21 {
+    background-image: url("/img/diagnosticamos.jpg");
+}
+
+#i22 {
+    background-image: url("/img/implementamos.jpg");
+}
+
+#i23 {
+    background-image: url("/img/gerenciamos.jpg");
+}
+
+#c1 {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+#c2 {
+    height: 320px;
+    background-image: url("/img/group.jpg");
+    margin-bottom: 10px;
+    background-color: #FFF;
+    line-height: 320px;
+}
+
+#c3 {
+    height: 190px;
+    background-image: url("/img/logoeaton.jpg");
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+    background-size: 170px 170px;
+    margin-right: 10px;
+    line-height: 190px;
+}
+
+#c4 {
+    background-image: url("/img/proyectos.jpg");
+    height: 190px;
+    background-color: #FFF;
+    line-height: 190px;
+}
+
+#c5 {
+    background-image: url("/img/contacto.jpg");
+    height: 190px;
+    background-color: #FFF;
+    margin-top: 10px;
+    line-height: 190px;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.nomargin {
+    margin: 0px !important;
+}
+
+.noheight {
+    height: auto !important;
+}
+
+.backcover {
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.btn-outline:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+#contacto-form {
+    height: 1180px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .noheight-xs {
+        height: auto !important;
+    }
+    .nopadding-xs {
+        padding: 0px !important;
+    }
+    .nomargin-xs {
+        margin: 0px !important;
+    }
+    #contacto-form {
+        height: 1400px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .nopading-sm {
+        padding: 0px !important;
+    }
+    .nomargin-sm {
+        margin: 0px !important;
+    }
+    .noheight-sm {
+        height: auto !important;
+    }
+}
+
+.carousel-inner.vertical {
+    height: 100%;
+}
+
+.carousel-inner.vertical > .item {
+    -webkit-transition: .6s ease-in-out top;
+    -o-transition: .6s ease-in-out top;
+    transition: .6s ease-in-out top;
+}
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-inner.vertical > .item {
+        -webkit-transition: -webkit-transform .6s ease-in-out;
+        -o-transition: -o-transform .6s ease-in-out;
+        transition: transform .6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        perspective: 1000;
+    }
+    .carousel-inner.vertical > .item.next,
+    .carousel-inner.vertical > .item.active.right {
+        top: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    .carousel-inner.vertical > .item.prev,
+    .carousel-inner.vertical > .item.active.left {
+        top: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    .carousel-inner.vertical > .item.next.left,
+    .carousel-inner.vertical > .item.prev.right,
+    .carousel-inner.vertical > .item.active {
+        top: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.carousel-inner.vertical > .active {
+    top: 0;
+}
+
+.carousel-inner.vertical > .next,
+.carousel-inner.vertical > .prev {
+    top: 0;
+    height: 100%;
+    width: auto;
+}
+
+.carousel-inner.vertical > .next {
+    left: 0;
+    top: 100%;
+}
+
+.carousel-inner.vertical > .prev {
+    left: 0;
+    top: -100%
+}
+
+.carousel-inner.vertical > .next.left,
+.carousel-inner.vertical > .prev.right {
+    top: 0;
+}
+
+.carousel-inner.vertical > .active.left {
+    left: 0;
+    top: -100%;
+}
+
+.carousel-inner.vertical > .active.right {
+    left: 0;
+    top: 100%;
+}
+
+.bio {
+    height: 550px;
+    overflow: hidden;
+}
+
+.bio-photo {
+    border-bottom: 1px solid #FF662B;
+}
+
+.bio-first {
+    margin-top: 12px;
+    color: #666;
+    font-size: 1.2em;
+}
+
+.bio-last {
+    color: #FF662B;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.bio-position {
+    ;
+    margin-bottom: 12px;
+}
