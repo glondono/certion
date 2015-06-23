@@ -1,30 +1,34 @@
-<div id="servicios" class="backcover">
+<div id="grupo" class="backcover">
     <div class="container">
-        <div class="row row-margin-after-header row-margin-bottom">
+        <div class="row margin-header">
             <div class="col-xs-12">
-                <h1 class="text-center white">
-                Servicios de ahorro de energía
-            </h1>
-                <h3 class="text-center white">Estructuramos proyectos para optimizar sus consumos y hacer más rentable su operación.
-            </h3>
+                 <h1 class="text-center white">Consumos eficientes<br/>Industrias rentables</h1>
             </div>
         </div>
     </div>
 </div>
 <div class="container">
-    <div class="row row-margin-top row-margin-bottom">
+    <div class="row margin-bottom-x1">
+        <div class="col-sm-4 hidden-xs"></div>
+        <div class="col-sm-4 col-xs-12 text-center">
+            <h2 class="orange">Servicios de ahorro de energía</h2>
+            <p>Estructuramos proyectos para optimizar sus consumos y hacer más rentable su operación.</p>
+        </div>
+        <div class="col-sm-4 hidden-xs"></div>
+    </div>
+    <div class="row margin-top-x1 margin-bottom-x1">
         <div class="col-sm-4">
             <h4>Nuestros <span class="orange">Servicios</span></h4>
             <p>
                 La optimización en los consumos de energía eléctrica es cíclica y constante.Haciendo clic en cada uno de las etapas, podrá conocer en detalle los servicios que ofrece Certion durante la intervención en cualquier industria.
             </p>
             <p>
-                <a class="btn btn-lg btn-block" ng-class="{'btn-primary' : status === 'diagnostico' , 'btn-default' : status !== 'diagnostico'}" ng-click="change('diagnostico')">Diagnóstico</a>
-                <a class="btn btn-lg btn-block" ng-class="{'btn-primary' : status === 'implementacion', 'btn-default' : status !== 'implementacion'}" ng-click="change('implementacion')">Implementación</a>
-                <a class="btn btn-lg btn-block" ng-class="{'btn-primary' : status === 'gerencia' , 'btn-default' : status !== 'gerencia'}" ng-click="change('gerencia')">Gerencia</a>
+                <a class="btn btn-lg btn-block" ng-class="{'btn-diagnostico' : status === 'diagnostico' , 'btn-default' : status !== 'diagnostico'}" ng-click="change('diagnostico')">Diagnóstico</a>
+                <a class="btn btn-lg btn-block" ng-class="{'btn-implementacion' : status === 'implementacion', 'btn-default' : status !== 'implementacion'}" ng-click="change('implementacion')">Implementación</a>
+                <a class="btn btn-lg btn-block" ng-class="{'btn-gerencia' : status === 'gerencia' , 'btn-default' : status !== 'gerencia'}" ng-click="change('gerencia')">Gerencia</a>
             </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 hidden-xs">
             <img id="circle" src="img/circle.png" width="100%" ng-class="status" />
         </div>
         <div class="col-sm-4">
@@ -49,7 +53,7 @@
             </div>
             <div ng-class="{ 'hide' : status !== 'implementacion' }">
                 <h4 class="orange">Públicos</span></h4>
-                <ul class="row-margin-bottom">
+                <ul class="margin-bottom-x1">
                     <li>
                         <span class="orange">Proyectos:</span> Construcción, supervisión y puesta en marcha de obra
                     </li>
@@ -66,7 +70,7 @@
             </div>
             <div ng-class="{ 'hide' : status !== 'gerencia' }">
                 <h4 class="orange">Públicos</span></h4>
-                <ul class="row-margin-bottom">
+                <ul class="margin-bottom-x1">
                     <li>
                         <span class="orange">Producción:</span> Aumento del control específico del consumo eléctrico en su producción
                     </li>
@@ -82,25 +86,25 @@
     </div>
     <div id="banner" class="row row-padding-top row-padding-bottom white" ng-class="status">
         <div ng-class="{ 'hide' : status !== 'diagnostico' }">
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Diagnosticamos</b></h3>
                 <p>
                     Mediante el conocimiento de su red y los equipos asociados, hacemos una valoración de su situación y planteamos una solución óptima de acuerdo a las necesidades de su industria.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Gestión de <b>Energía</b></h3>
                 <p>
                     Valoración de pérdidas de energía eléctrica asociadas la operación y las razones por las cuales se da, proponiéndole soluciones encaminadas a la eficiencia en la producción a través del ahorro.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Consultoría</b></h3>
                 <p>
                     Evaluación de sistemas y soluciones eléctricas, mediante identificación de la viabilidad del proyecto, definición de requerimientos, asignación de profesionales y finalmente supervisión de la implementación.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Pruebas y <b>Estudios</b></h3>
                 <p>
                     Pruebas de aislamiento en transformadores, motores y generadores.
@@ -112,25 +116,25 @@
             </div>
         </div>
         <div ng-class="{ 'hide' : status !== 'implementacion' }">
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Implementamos</b></h3>
                 <p>
                     Ejecución de las soluciones planteadas en la fase diagnóstica con el fin de optimizar sus consumos y maximizar su rentabilidad.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Proyectos de <b>Energía</b></h3>
                 <p>
                     Llevamos a cabo proyectos de energía eléctrica de automatización y control industrial, hospitalarios, industriales de media y baja tensión, infraestructura, redes de media tensión y alumbrado público.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Fabricación</b></h3>
                 <p>
                     Fabricamos gabinetes en media y baja tensión, modulares de control, de potencia IP66, acero inoxidable NEMA 4X, celdas de media tensión, NEMA 61439-61641 (arco eléctrico) y XW (CCM extraíble).
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Ingeniería de <b>Velocidad</b></h3>
                 <p>
                     Implementamos proyectos de alto impacto en los consumos directamente asociados con la producción, a través de la instalación de diferentes tipos de variadores y arrancadores que regulan la potencia los motores de la maquinaria.
@@ -138,25 +142,25 @@
             </div>
         </div>
         <div ng-class="{ 'hide' : status !== 'gerencia' }">
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Gerenciamos</b></h3>
                 <p>
                     Seguimiento a las soluciones implementadas para generar continuidad y calidad en cada uno de los procesos.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Supervisión</b></h3>
                 <p>
                     Revisión constante de los procesos asegurándonos de la calidad y productividad de los mismos.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Control</b></h3>
                 <p>
                     Monitoreo de consumo y calidad de energía. Planificación de consumos y picos de energía.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-3 row-margin-top">
+            <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Administración</b></h3>
                 <p>
                     Implementamos proyectos de alto impacto en los consumos directamente asociados con la producción, a través de la instalación de diferentes tipos de variadores y arrancadores que regulan la potencia los motores de la maquinaria.

@@ -8,27 +8,33 @@
 }
 
 #footer {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: 50px;
 }
 
 #footer .container {
     border-top: 5px solid #FF662B;
     border-bottom: 5px solid #ddd;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer a{
+    color:inherit;
+    text-decoration: none;
 }
 
 #carousel1 {
     background-color: #000;
     color: #333;
     margin-bottom: 30px;
+    height: 380px;
 }
 
 #carousel1 .item {
     width: 100%;
-    height: 480px;
+    height: 380px;
 }
 
 #i0 {
@@ -47,9 +53,6 @@
     background-image: url("/img/infraestructura.jpg");
 }
 
-#i4 {
-    background-image: url("/img/generator.jpg");
-}
 
 #p1 {
     background-image: url("/img/procopal.jpg");
@@ -96,29 +99,39 @@
     width: 100%;
 }
 
+#grupo{
+    background-image: url("/img/generator.jpg");
+    width: 100%;
+    min-height: 380px;
+}
 #procopal {
     background-image: url("/img/procopal2.jpg");
     width: 100%;
+    min-height: 380px;
 }
 
 #plazamayor {
     background-image: url("/img/plazamayor2.jpg");
     width: 100%;
+    min-height: 380px;
 }
 
 #elcondor {
     background-image: url("/img/elcondor2.jpg");
     width: 100%;
+    min-height:380px;
 }
 
 #caicsa {
     background-image: url("/img/caicsa2.jpg");
     width: 100%;
+    min-height:380px;
 }
 
 #conconcreto {
     background-image: url("/img/conconcreto2.jpg");
     width: 100%;
+    min-height:380px;
 }
 
 #circle{
@@ -165,6 +178,24 @@
     background-color:#00B3C1;
 }
 
+.btn-diagnostico{
+  color: #fff !important;
+  background-color: #FF662B;
+  border-color: #FF662B;
+}
+
+.btn-gerencia{
+  color: #fff !important;
+  background-color: #00B3C1;
+  border-color: #00B3C1;
+}
+
+.btn-implementacion{
+  color: #fff !important;
+  background-color: #00718C;
+  border-color: #00718C;
+}
+
 .orange {
     color: #FF662B;
 }
@@ -173,20 +204,24 @@
     color: #FFF;
 }
 
-.row-margin-bottom {
+.margin-bottom-x1 {
     margin-bottom: 30px;
 }
 
-.row-margin-after-header {
-    margin-top: 80px;
+.margin-header {
+    margin-top: 155px;
 }
 
-.row-margin-top {
+.margin-top-x1 {
     margin-top: 30px;
 }
 
 .row-padding-top{
     padding-top: 30px;
+}
+
+.row-padding-top-x3{
+    padding-top:120px;
 }
 
 .row-padding-bottom{
@@ -265,6 +300,10 @@
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: cover;
+}
+
+.btn{
+    border-radius: 0px !important;
 }
 
 .btn-outline {
@@ -412,6 +451,5 @@
 }
 
 .bio-position {
-    ;
     margin-bottom: 12px;
 }
