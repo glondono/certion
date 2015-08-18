@@ -48,6 +48,22 @@ angular.module('app', [
             url: '/proyectos/conconcreto',
             templateUrl: 'conconcreto.html'
         });
+        $stateProvider.state('segmentos', {
+           url: '/segmentos',
+           templateUrl: 'segmentos.html'
+        });
+        $stateProvider.state('industrial', {
+            url: '/segmentos/industrial',
+            templateUrl: 'industrial.html'
+        });
+         $stateProvider.state('hospitalario', {
+            url: '/segmentos/hospitalario',
+            templateUrl: 'hospitalario.html'
+        });
+         $stateProvider.state('infraestructura', {
+            url: '/segmentos/infraestructura',
+            templateUrl: 'infraestructura.html'
+        });
         $urlRouterProvider.otherwise('inicio');
     })
     .controller('InicioCtrl', function() {

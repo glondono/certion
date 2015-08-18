@@ -53,6 +53,10 @@
     background-image: url("/img/infraestructura.jpg");
 }
 
+#i4{
+   background-image: url("/img/gabinetes.jpg"); 
+}
+
 
 #p1 {
     background-image: url("/img/procopal.jpg");
@@ -82,6 +86,42 @@
     background-image: url("/img/conconcreto.jpg");
     height: 280px;
     line-height: 280px;
+}
+
+#s1{
+    background-image: url("/img/industrial2.jpg");
+    height: 230px;
+    line-height: 230px;
+}
+
+#s2{
+    background-image: url("/img/infraestructura2.jpg");
+    height: 230px;
+    line-height: 230px;
+}
+
+#s3{
+    background-image: url("/img/hospitalario2.jpg");
+    height: 230px;
+    line-height: 230px;
+}
+
+#industrial{
+    background-image: url("/img/industrial2.jpg");
+    width: 100%;
+    min-height: 380px;
+}
+
+#hospitalario{
+    background-image: url("/img/hospitalario2.jpg");
+    width: 100%;
+    min-height: 380px;
+}
+
+#infraestructura{
+    background-image: url("/img/infraestructura2.jpg");
+    width: 100%;
+    min-height: 380px;   
 }
 
 #eaton2 {
