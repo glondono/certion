@@ -140,9 +140,10 @@
 }
 
 #grupo{
-    background-image: url("/img/generator.jpg");
+    background-image: url("/img/grupo2.jpg");
     width: 100%;
     min-height: 380px;
+    background-position-y:-80px
 }
 #procopal {
     background-image: url("/img/procopal2.jpg");
