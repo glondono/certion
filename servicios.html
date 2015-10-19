@@ -11,8 +11,14 @@
     <div class="row margin-bottom-x1">
         <div class="col-sm-4 hidden-xs"></div>
         <div class="col-sm-4 col-xs-12 text-center">
-            <h2 class="orange">Servicios de ahorro de energía</h2>
-            <p>Estructuramos proyectos para optimizar sus consumos y hacer más rentable su operación.</p>
+            <h2 class="orange">
+                <span ng-show="status === 'diagnostico'">Servicios de ahorro de energía</span>
+                <span ng-show="status === 'implementacion'">Proyectos de energia electrica</span>
+                <span ng-show="status === 'gerencia'">Business efficiency</span>
+            </h2>
+            <p ng-show="status === 'diagnostico'">Estructuramos proyectos para optimizar sus consumos y hacer más rentable su operación.</p>
+            <p ng-show="status === 'implementacion'">Proyectos de energía eléctrica confiables y sostenibles que hacen más rentable su operacion</p>
+            <p ng-show="status === 'gerencia'">Monitoreo y control de señales</p>
         </div>
         <div class="col-sm-4 hidden-xs"></div>
     </div>
@@ -20,7 +26,7 @@
         <div class="col-sm-4">
             <h4>Nuestros <span class="orange">Servicios</span></h4>
             <p>
-                La optimización en los consumos de energía eléctrica es cíclica y constante.Haciendo clic en cada uno de las etapas, podrá conocer en detalle los servicios que ofrece Certion durante la intervención en cualquier industria.
+                La optimización en los consumos de energía eléctrica es cíclica y constante .Haciendo clic en cada uno de las etapas, podrá conocer en detalle los servicios que ofrece Certion durante la intervención en cualquier industria.
             </p>
             <p>
                 <a class="btn btn-lg btn-block" ng-class="{'btn-diagnostico' : status === 'diagnostico' , 'btn-default' : status !== 'diagnostico'}" ng-click="change('diagnostico')">Diagnóstico</a>
@@ -64,9 +70,12 @@
                         <span class="orange">Compras:</span> Suministro de equipos óptimos que respaldan la producción.
                     </li>
                     <li>
-                        <span class="orange">Producción::</span> generación de eficiencia en consumos de energía eléctrica
+                        <span class="orange">Producción::</span> Generación de eficiencia en consumos de energía eléctrica
                     </li>
                 </ul>
+                <p>
+                    <img src='img\eaton_asi.jpg' width="280px">
+                </p>
             </div>
             <div ng-class="{ 'hide' : status !== 'gerencia' }">
                 <h4 class="orange">Públicos</span></h4>
@@ -75,7 +84,7 @@
                         <span class="orange">Producción:</span> Aumento del control específico del consumo eléctrico en su producción
                     </li>
                     <li>
-                        <span class="orange">Mantenimiento:</span> confiabilidad en el sistema eléctrico
+                        <span class="orange">Mantenimiento:</span> Confiabilidad en el sistema eléctrico
                     </li>
                     <li>
                         <span class="orange">Gerencia:</span> Tecnifica, normaliza y capitaliza las actividades de mantenimiento. Mayor utilidad de sus activos.
@@ -91,6 +100,7 @@
                 <p>
                     Mediante el conocimiento de su red y los equipos asociados, hacemos una valoración de su situación y planteamos una solución óptima de acuerdo a las necesidades de su industria.
                 </p>
+                <h3>Auditoria Energetica</h3>
             </div>
             <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Gestión de <b>Energía</b></h3>
@@ -101,17 +111,19 @@
             <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Consultoría</b></h3>
                 <p>
-                    Evaluación de sistemas y soluciones eléctricas, mediante identificación de la viabilidad del proyecto, definición de requerimientos, asignación de profesionales y finalmente supervisión de la implementación.
+                    Diseño de proyectos de enérgia; evaluación de sistemas y soluciones eléctricas, mediante identificación de la viabilidad del proyecto, definición de requerimientos, asignación de profesionales y finalmente supervisión de la implementación.
                 </p>
             </div>
             <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Pruebas y <b>Estudios</b></h3>
                 <p>
-                    Pruebas de aislamiento en transformadores, motores y generadores.
-                    <br/> Pruebas de medición eléctrica industrial y de baja resistencia.
-                    <Br/> Estudios de calidad de energía.
-                    <br/> Diagnóstico de implementación de variadores y arrancadores suaves.
-                    <br/> Análisis de viabilidad financiera de la solución.
+                    <ul>
+                        <li>Pruebas de aislamiento en transformadores, motores y generadores.</li>
+                        <li>Pruebas de medición eléctrica industrial y de baja resistencia.</li>
+                        <li>Estudios de calidad de energía</li>
+                        <li>Diagnóstico de implementación de variadores</li>
+                        <li>Análisis de viabilidad financiera de la solución</li>
+                    </ul>
                 </p>
             </div>
         </div>
@@ -119,25 +131,82 @@
             <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Implementamos</b></h3>
                 <p>
-                    Ejecución de las soluciones planteadas en la fase diagnóstica con el fin de optimizar sus consumos y maximizar su rentabilidad.
+                    Siguiendo la metodología <b><font style='font-size:1.2em'>PMI</font></b>
+                    <ul>
+                        <li>
+                            Planificación
+                        </li>
+                        <li>
+                            Diseño    
+                        </li>
+                        <li>
+                            Implementación
+                        </li>
+                        <li>
+                            Control
+                        </li>
+                        <li>
+                            Puesta en marcha
+                        </li>
+                    </ul>
+                    De proyectos <b><font style='font-size:1.2em'>Eléctricos</font></b>
                 </p>
             </div>
             <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Proyectos de <b>Energía</b></h3>
                 <p>
-                    Llevamos a cabo proyectos de energía eléctrica de automatización y control industrial, hospitalarios, industriales de media y baja tensión, infraestructura, redes de media tensión y alumbrado público.
+                    <ul>
+                        <li>Automatización y control <b><font style='font-size:1.2em'>Industrial</font></b></li>
+                        <li><b><font style='font-size:1.2em'>Hospitalarios</font></b></li>
+                        <li>Industriales de media y baja tensión</li>
+                        <li>
+                            <b><font style='font-size:1.2em'>Infraestructura</font></b> Comercial
+                        </li>
+                        <li>
+                            Infraestructura Vial (Redes de enérgia y Alumbrado público)
+                        </li>
+                    </ul>
                 </p>
             </div>
             <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3><b>Fabricación</b></h3>
                 <p>
-                    Fabricamos gabinetes en media y baja tensión, modulares de control, de potencia IP66, acero inoxidable NEMA 4X, celdas de media tensión, NEMA 61439-61641 (arco eléctrico) y XW (CCM extraíble).
+                    <ul>
+                        <li>
+                            Gabinetes en media y baja tensión  <b><font style='font-size:1.2em'>RETIE 2013</font></b>
+                        </li>
+                        <li>
+                            Modulares de control y de potencia IP66
+                        </li>
+                        <li>
+                             Modulares de control acero inoxidable NEMA 4X
+                        </li>
+                        <li>
+                            Celdas de media tensión  <b><font style='font-size:1.2em'>XENERGY</font></b> NEMA 61439-61641 (arco eléctrico)
+                        </li>
+                        <li>
+                            XW (CCM extraíble)
+                        </li>
+                    </ul>
                 </p>
             </div>
             <div class="col-sm-6 col-md-3 margin-top-x1">
                 <h3>Ingeniería de <b>Velocidad</b></h3>
                 <p>
-                    Implementamos proyectos de alto impacto en los consumos directamente asociados con la producción, a través de la instalación de diferentes tipos de variadores y arrancadores que regulan la potencia los motores de la maquinaria.
+                    <ul>
+                        <li>
+                            <b><font style='font-size:1.2em'>Variadores</font></b> de velocidad
+                        </li>
+                        <li>
+                            <b><font style='font-size:1.2em'>Arrancadores</font></b> suaves
+                        </li>
+                        <li>
+                            Servico Técnico especializado
+                        </li>
+                        <li>
+                            Montaje y puesta en marcha de variadores electrónicos de velocidad para arranque de motores
+                        </li>
+                    </ul>
                 </p>
             </div>
         </div>
