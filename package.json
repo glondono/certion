@@ -1,0 +1,12 @@
+{
+  "name": "certion",
+  "version": "1.0.0",
+  "description": "Certion main website",
+  "main": "server.js",
+  "repository": "",
+  "author": "Independent developer",
+  "dependencies": {
+    "compression": "^1.6.0",
+    "express": "^4.9.4"
+  }
+}
