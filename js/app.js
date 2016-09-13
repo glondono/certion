@@ -64,6 +64,10 @@ angular.module('app', [
             url: '/segmentos/infraestructura',
             templateUrl: 'infraestructura.html'
         });
+        $stateProvider.state('noticias', {
+            url: '/noticias',
+            templateUrl: 'noticias.html'
+        });
         $urlRouterProvider.otherwise('inicio');
     })
     .controller('InicioCtrl', function() {
