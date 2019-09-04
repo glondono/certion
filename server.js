@@ -4,7 +4,7 @@ var compression = require('compression');
 var app = express();
 
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 app.use(compression());
 app.use('/',express.static(__dirname));
 

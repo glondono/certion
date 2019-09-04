@@ -48,19 +48,31 @@ angular.module('app', [
             url: '/proyectos/conconcreto',
             templateUrl: 'conconcreto.html'
         });
+        $stateProvider.state('farallones1', {
+            url: '/proyectos/farallones1',
+            templateUrl: 'farallones1.html'
+        });
+        $stateProvider.state('farallones2', {
+            url: '/proyectos/farallones2',
+            templateUrl: 'farallones2.html'
+        });
+         $stateProvider.state('elcondor2', {
+            url: '/proyectos/elcondor2',
+            templateUrl: 'elcondor2.html'
+        });
         $stateProvider.state('segmentos', {
-           url: '/segmentos',
-           templateUrl: 'segmentos.html'
+            url: '/segmentos',
+            templateUrl: 'segmentos.html'
         });
         $stateProvider.state('industrial', {
             url: '/segmentos/industrial',
             templateUrl: 'industrial.html'
         });
-         $stateProvider.state('hospitalario', {
+        $stateProvider.state('hospitalario', {
             url: '/segmentos/hospitalario',
             templateUrl: 'hospitalario.html'
         });
-         $stateProvider.state('infraestructura', {
+        $stateProvider.state('infraestructura', {
             url: '/segmentos/infraestructura',
             templateUrl: 'infraestructura.html'
         });
@@ -68,6 +80,7 @@ angular.module('app', [
             url: '/noticias',
             templateUrl: 'noticias.html'
         });
+
         $urlRouterProvider.otherwise('inicio');
     })
     .controller('InicioCtrl', function() {

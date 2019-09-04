@@ -59,31 +59,49 @@
 
 
 #p1 {
-    background-image: url("/img/procopal.jpg");
+    background-image: url("/img/procopal3.png");
     height: 280px;
     line-height: 280px;
 }
 
 #p2 {
-    background-image: url("/img/plazamayor.jpg");
+    background-image: url("/img/plazamayor3.png");
     height: 280px;
     line-height: 280px;
 }
 
 #p3 {
-    background-image: url("/img/elcondor.jpg");
+    background-image: url("/img/condor.png");
     height: 280px;
     line-height: 280px;
 }
 
 #p4 {
-    background-image: url("/img/caisa.jpg");
+    background-image: url("/img/caicsa3.png");
     height: 280px;
     line-height: 280px;
 }
 
 #p5 {
-    background-image: url("/img/conconcreto.jpg");
+    background-image: url("/img/conconcreto3.png");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p6 {
+    background-image: url("/img/condor.png");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p7 {
+    background-image: url("/img/farallones2.JPG");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p8 {
+    background-image: url("/img/farallones.JPG");
     height: 280px;
     line-height: 280px;
 }
@@ -104,6 +122,11 @@
     background-image: url("/img/hospitalario2.jpg");
     height: 230px;
     line-height: 230px;
+}
+#farallones1{
+     background-image: url("/img/farallones3.png");
+    width: 100%;
+    min-height: 380px;
 }
 
 #industrial{
@@ -293,7 +316,7 @@
 
 #c2 {
     height: 320px;
-    background-image: url("/img/group.jpg");
+    background-image: url("/img/grupo5.jpg");
     margin-bottom: 10px;
     background-color: #FFF;
     line-height: 320px;
