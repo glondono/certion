@@ -60,6 +60,10 @@ angular.module('app', [
             url: '/proyectos/elcondor2',
             templateUrl: 'elcondor2.html'
         });
+        $stateProvider.state('oea', {
+            url: '/proyectos/oea',
+            templateUrl: 'oea.html'
+        });
         $stateProvider.state('segmentos', {
             url: '/segmentos',
             templateUrl: 'segmentos.html'
