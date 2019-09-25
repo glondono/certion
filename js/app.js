@@ -84,6 +84,10 @@ angular.module('app', [
             url: '/noticias',
             templateUrl: 'noticias.html'
         });
+        $stateProvider.state('privacidad', {
+            url: '/privacidad',
+            templateUrl: 'privacidad.html'
+        });
 
         $urlRouterProvider.otherwise('inicio');
     })
