@@ -105,10 +105,15 @@ angular.module('app', [
         }
     }])
     .run(['$rootScope', function($rootScope) {
-        $rootScope.$on('$stateChangeSuccess', function() {
+        $rootScope.$on('$stateChangeSuccess', function(e, to) {
             $("html, body").animate({
                 scrollTop: 0
             }, 200);
+            if(window.ga && ga.create){
+                ga('set', 'page', to.url);
+                ga('set', 'title', to.name);
+                ga('send', 'pageview');
+            }
         });
         var navbar = $("#navbar");
         navbar.on("click", "a", null, function() {
