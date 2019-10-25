@@ -88,6 +88,10 @@ angular.module('app', [
             url: '/privacidad',
             templateUrl: 'privacidad.html'
         });
+        $stateProvider.state('solar', {
+            url: '/solar',
+            templateUrl: 'solar.html'
+        });
 
         $urlRouterProvider.otherwise('inicio');
     })

@@ -157,6 +157,12 @@
     min-height: 380px;   
 }
 
+#solar{
+    background-image: url("/img/solar6.jpg");
+    width: 100%;
+    min-height: 380px;   
+}
+
 #eaton2 {
     background-image: url("/img/generator.jpg");
     width: 100%;
@@ -332,7 +338,7 @@
 
 #c2 {
     height: 320px;
-    background-image: url("/img/grupo5.jpg");
+    background-image: url("/img/infraestructura3.jpg");
     margin-bottom: 10px;
     background-color: #FFF;
     line-height: 320px;
@@ -354,13 +360,23 @@
     height: 190px;
     background-color: #FFF;
     line-height: 190px;
+    margin-bottom:10px;
+}
+
+#c6 {
+    background-image: url("/img/solar4.jpg");
+    background-position-y: -50px;
+    background-position-x: -20px;
+    height: 190px;
+    background-color: #FFF;
+    line-height: 190px;
+    margin-bottom:10px;
 }
 
 #c5 {
     background-image: url("/img/contacto.jpg");
     height: 190px;
     background-color: #FFF;
-    margin-top: 10px;
     line-height: 190px;
 }
 
