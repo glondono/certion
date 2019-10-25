@@ -355,6 +355,16 @@
     line-height: 190px;
 }
 
+#c3-1 {
+    height: 190px;
+    background-image: url("/img/qcert2.png");
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+    margin-right: 10px;
+    line-height: 190px;
+}
+
 #c4 {
     background-image: url("/img/proyectos.jpg");
     height: 190px;
