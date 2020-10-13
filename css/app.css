@@ -346,21 +346,22 @@
 
 #c3 {
     height: 190px;
-    background-image: url("/img/iso9001.png");
+    background-image: url("/img/LOGOSCALIDAD.png");
     background-repeat: no-repeat;
     background-color: #FFF;
     background-position: center;
-    background-size: 120px 170px;
+    background-size: contain;
     margin-right: 10px;
     line-height: 190px;
 }
 
 #c3-1 {
     height: 190px;
-    background-image: url("/img/qcert2.png");
+    background-image: url("/img/QCERT.png");
     background-repeat: no-repeat;
     background-color: #FFF;
     background-position: center;
+    background-size: contain;
     margin-right: 10px;
     line-height: 190px;
 }
